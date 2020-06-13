@@ -1,8 +1,26 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 body{
-
+    font-family: Gotham;
+    font-size: .625rem;
+    line-height: 1.5;
+    color: #333333;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.header,.main,.footer{
+    float:left;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
 }
