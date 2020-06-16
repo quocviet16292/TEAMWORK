@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
-    <link href="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/Home.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
 <!--Viet-->
@@ -16,7 +15,7 @@
             </div>
             <div class="header-center">
                 <ul>
-                    <li><a href="" class="header-menu" style="padding-left: 150px;">watches</a></li>
+                    <li style="margin-left: 150px"><a href="" class="header-menu">watches</a></li>
                     <li><a href="" class="header-menu">our world</a></li>
                     <li><a href="" class="header-menu">boutiques</a></li>
                 </ul>
@@ -40,7 +39,7 @@
                     <div style="font-size: 60px;font-weight: bold;line-height: 1;">E BLACK CERAMIC</div>
                     <br>
                     <div class="main-top-cover-letter-link">
-                        <a href="">DISCOVER MORE</a>
+                        <a href="" style="width: 40%">DISCOVER MORE</a>
                     </div>
                     <br>
                     <div class="main-top-cover-letter-arrow">
@@ -49,41 +48,362 @@
                     </div>
                 </div>
              </div>
+
  <!--Son-->
             <div class="main-top-button">
 
+                <div class="main-top-button_left"><a href="#" style="color:black"><span class="main-top-button_span_left">find your hublot watch</span></a></div>
+                <div class="main-top-button_center"><a href="#"><span class="main-top-button_span_center">find a boutique</span></a></div>
+                <div class="main-top-button_right"><a href="#"><span class="main-top-button_span_right">find your strap</span></a></div>
             </div>
 
             <div class="main-video">
 
+                <video width="100%" autoplay>
+                    <source type="video/mp4" src="videos/main-video_1.mp4">
+                </video>
             </div>
             <div class="main-product">
+                <div class="main-product_span"><span>EXPLORE WATCHES</span></div>
+                <div class="main-product_content">
+                    <div class="main-product_content_img">
+                        <figure>
+                            <a href="#">
+                                <img class="mySlides_novelties w3-animate-fading" src="img/novelties_1.png" alt="novelties" style="max-width: 120%;margin-left: -20px">
+                                <img class="mySlides_novelties w3-animate-fading" src="img/novelties_2.png" alt="novelties" style="max-width: 120%;margin-left: -20px">
+                                <img class="mySlides_novelties w3-animate-fading" src="img/novelties_3.png" alt="novelties" style="max-width: 120%;margin-left: -20px">
+                                <img class="mySlides_novelties w3-animate-fading" src="img/novelties__4.png" alt="novelties" style="max-width: 120%;margin-left: -20px">
+                                <img class="mySlides_novelties w3-animate-fading" src="img/novelties_5.png" alt="novelties" style="max-width: 120%;margin-left: -20px">
+                            </a>
+                            <script>
+                                var myIndex = 0;
+                                carousel();
+                                function carousel() {
+                                    var i;
+                                    var x = document.getElementsByClassName("mySlides_novelties");
+                                    for (i = 0; i < x.length; i++) {
+                                        x[i].style.display = "none";
+                                    }
+                                    myIndex++;
+                                    if (myIndex > x.length) {myIndex = 1}
+                                    x[myIndex-1].style.display = "block";
+                                    setTimeout(carousel, 20000);
+                                }
+                            </script>
 
-            </div>
-<!-- Do Nam-->
-            <div class="main-two-column">
+                        </figure>
+                    </div>
+                    <div class="main-product_content_span">novelties</div>
+                </div>
 
-            </div>
-            <div class="main-art-music">
+                <div class="main-product_content">
+                    <div class="main-product_content_img">
+                        <figure>
+                            <a href="#">
+                                <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_1.png" alt="big bang" style="max-width: 120%;margin-left: -20px">
+                                <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_2.png" alt="big bang" style="max-width: 120%;margin-left: -20px">
+                                <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_3.png" alt="big bang" style="max-width: 120%;margin-left: -20px">
+                                <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_4.png" alt="big bang" style="max-width: 120%;margin-left: -20px">
+                                <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_5.png" alt="big bang" style="max-width: 120%;margin-left: -20px">
+                                <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_6.png" alt="big bang" style="max-width: 120%;margin-left: -20px">
+                                <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_7.png" alt="big bang" style="max-width: 120%;margin-left: -20px">
+                                <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_8.png" alt="big bang" style="max-width: 120%;margin-left: -20px">
+                            </a>
+                            <script>
+                                var myIndex = 0;
+                                carousel();
+                                function carousel() {
+                                    var i;
+                                    var x = document.getElementsByClassName("mySlides_bigbang");
+                                    for (i = 0; i < x.length; i++) {
+                                        x[i].style.display = "none";
+                                    }
+                                    myIndex++;
+                                    if (myIndex > x.length) {myIndex = 1}
+                                    x[myIndex-1].style.display = "block";
+                                    setTimeout(carousel, 20000);
+                                }
+                            </script>
 
-            </div>
-<!--Truong Nam-->
-            <div class="main-latest-news">
+                        </figure>
+                    </div>
+                    <div class="main-product_content_span">big bang</div>
+                </div>
 
-            </div>
+                <div class="main-product_content">
+                    <div class="main-product_content_img">
+                        <figure>
+                            <a href="#">
+                                <img class="mySlides_classicfusion w3-animate-fading" src="img/classicfusion_1.png" alt="classicfusion" style="max-width: 120%;margin-left: -20px">
+                                <img class="mySlides_classicfusion w3-animate-fading" src="img/classicfusion_2.png" alt="classicfusion" style="max-width: 120%;margin-left: -20px">
+                                <img class="mySlides_classicfusion w3-animate-fading" src="img/classicfusion_3.png" alt="classicfusion" style="max-width: 120%;margin-left: -20px">
+                                <img class="mySlides_classicfusion w3-animate-fading" src="img/classicfusion_4.png" alt="classicfusion" style="max-width: 120%;margin-left: -20px">
+                                <img class="mySlides_classicfusion w3-animate-fading" src="img/classicfusion_5.png" alt="classicfusion" style="max-width: 120%;margin-left: -20px">
+                            </a>
+                            <script>
+                                var myIndex = 0;
+                                carousel();
+                                function carousel() {
+                                    var i;
+                                    var x = document.getElementsByClassName("mySlides_classicfusion");
+                                    for (i = 0; i < x.length; i++) {
+                                        x[i].style.display = "none";
+                                    }
+                                    myIndex++;
+                                    if (myIndex > x.length) {myIndex = 1}
+                                    x[myIndex-1].style.display = "block";
+                                    setTimeout(carousel, 20000);
+                                }
+                            </script>
+                        </figure>
+                    </div>
+                    <div class="main-product_content_span">classic fusion</div>
+                </div>
 
-            <div class="main-sign-up">
+                <div class="main-product_content">
+                    <div class="main-product_content_img">
+                        <figure>
+                            <a href="#">
+                                <img class="mySlides_spirit w3-animate-fading" src="img/spirit_1.png" alt="spirit" style="max-width: 120%;margin-left: -20px">
+                                <img class="mySlides_spirit w3-animate-fading" src="img/spirit_2.png" alt="spirit" style="max-width: 120%;margin-left: -20px">
+                                <img class="mySlides_spirit w3-animate-fading" src="img/spirit_3.png" alt="spirit" style="max-width: 120%;margin-left: -20px">
+                                <img class="mySlides_spirit w3-animate-fading" src="img/spirit_4.png" alt="spirit" style="max-width: 120%;margin-left: -20px">
+                                <img class="mySlides_spirit w3-animate-fading" src="img/spirit_5.png" alt="spirit" style="max-width: 120%;margin-left: -20px">
+                            </a>
+                            <script>
+                                var myIndex = 0;
+                                carousel();
+                                function carousel() {
+                                    var i;
+                                    var x = document.getElementsByClassName("mySlides_spirit");
+                                    for (i = 0; i < x.length; i++) {
+                                        x[i].style.display = "none";
+                                    }
+                                    myIndex++;
+                                    if (myIndex > x.length) {myIndex = 1}
+                                    x[myIndex-1].style.display = "block";
+                                    setTimeout(carousel, 20000);
+                                }
+                            </script>
+                        </figure>
+                    </div>
+                    <div class="main-product_content_span">spirit of big bang</div>
+                </div>
+
+                <div class="main-product_content">
+                    <div class="main-product_content_img">
+                        <figure>
+                            <a href="#">
+                                <img class="mySlides_mp w3-animate-fading" src="img/mp_1.png" alt="mp" style="max-width: 120%;margin-left: -20px">
+                                <img class="mySlides_mp w3-animate-fading" src="img/mp_2.png" alt="mp" style="max-width: 120%;margin-left: -20px">
+                            </a>
+                            <script>
+                                var myIndex = 0;
+                                carousel();
+                                function carousel() {
+                                    var i;
+                                    var x = document.getElementsByClassName("mySlides_mp");
+                                    for (i = 0; i < x.length; i++) {
+                                        x[i].style.display = "none";
+                                    }
+                                    myIndex++;
+                                    if (myIndex > x.length) {myIndex = 1}
+                                    x[myIndex-1].style.display = "block";
+                                    setTimeout(carousel, 60000);
+                                }
+                            </script>
+                        </figure>
+                    </div>
+                    <div class="main-product_content_span">mp</div>
+                </div>
 
             </div>
         </div>
+<!-- Do Nam-->
+        <div class="main-two-column">
+            <div class="main-two-column-1">
+                <a href="#"><img src="./img/a.jpg" style="height: 600px;width: 100%"></a>
+                <div class="main-two-column-boutiques">
+                    <div class="main-two-column-boutiques-in">
+                        <span class="main-two-column-boutiques-1">Boutiques</span>
+                        <div class="main-two-column-boutiques-2"></div>
+                        <h3 class="main-two-column-boutiques-3">BOUTIQUES</h3>
+                        <a href="#"><div  class="main-two-column-boutiques-4">
+                            <div class="main-two-column-boutiques-41">
+                                LEARN MORE
+                            </div>
+                        </div></a>
+                    </div>
+                </div>
+            </div>
+            <div class="main-two-column-1">
+                <a href="#"><img src="./img/b.jpg" style="height: 600px;width: 100%"></a>
+                <div class="main-two-column-boutiques">
+                    <div class="main-two-column-boutiques-in">
+                        <span class="main-two-column-boutiques-1">Boutiques</span>
+                        <div class="main-two-column-boutiques-2"></div>
+                        <h3 class="main-two-column-boutiques-3">BOUTIQUES</h3>
+                        <a href="#"><div  class="main-two-column-boutiques-4">
+                            <div class="main-two-column-boutiques-41">
+                                LEARN MORE
+                            </div>
+                        </div></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-art-music">
+            <div class="main-art-music-1">
+                <a href="#"><img src="./img/c.jpg" style="width: 100%; height: 800px;"></a>
+                <div class="main-art-music-sorai">
+                    <div class="main-art-music-sorai-in">
+                        <span class="main-art-music-sorai-1">Social Responsibility</span>
+                        <div class="main-art-music-sorai-2"></div>
+                        <h3 class="main-art-music-sorai-3">SORAI</h3>
+                        <a href="#"><div  class="main-art-music-sorai-4">
+                            <div class="main-art-music-sorai-41">
+                                LEARN MORE
+                            </div>
+                        </div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Truong Nam-->
+        <div class="full-body">
+            <div class="body-content">
+                <h1 class="content-h1">LATEST NEWS</h1>
+                <div class="Full-content-block clearfix">
+                    <div class="block clearfix">
+                        <div class="block-content fl">
+                            <div class="block-content-distance">
+                                <img class="block-line-1" src="img/e.png" alt="">
+                                <p class="heading-title">
+                                    HUBLOT BIG BANG E
+                                </p>
+                                <div class="block-line"></div>
+                                <p>
+                            <span class="block-line-1">
+                                Hublot first released the Big Bang in 2005. Since then, this model has come to embody Swiss watchmaking in the third millennium.
+                                <br>
+                                In 2018, the first connected version of the Big Bang made its debut. And now, Hublot unveils the Big Bang e. The new incarnation of the brand's Art of Fusion ethos:
+                                a fusion between tradition and innovation, cutting edge materials and the latest digital technology.
+                            </span>
+                                </p>
+                                <div class="hightlight">
+                                    <p>
+                                        LEARN MORE
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="block-content fl">
+                            <div class="block-content-distance">
+                                <img class="block-line-1" src="img/e.png" alt="">
+                                <p class="heading-title">
+                                    HUBLOT BIG BANG E
+                                </p>
+                                <div class="block-line"></div>
+                                <p>
+                            <span class="block-line-1">
+                                Hublot first released the Big Bang in 2005. Since then, this model has come to embody Swiss watchmaking in the third millennium.
+                                <br>
+                                In 2018, the first connected version of the Big Bang made its debut. And now, Hublot unveils the Big Bang e. The new incarnation of the brand's Art of Fusion ethos:
+                                a fusion between tradition and innovation, cutting edge materials and the latest digital technology.
+                            </span>
+                                </p>
+                                <div class="hightlight">
+                                    <p>
+                                        LEARN MORE
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="block-content fl">
+                            <div class="block-content-distance">
+                                <img class="block-line-1" src="img/e.png" alt="">
+                                <p class="heading-title">
+                                    HUBLOT BIG BANG E
+                                </p>
+                                <div class="block-line"></div>
+                                <p>
+                            <span class="block-line-1">
+                                Hublot first released the Big Bang in 2005. Since then, this model has come to embody Swiss watchmaking in the third millennium.
+                                <br>
+                                In 2018, the first connected version of the Big Bang made its debut. And now, Hublot unveils the Big Bang e. The new incarnation of the brand's Art of Fusion ethos:
+                                a fusion between tradition and innovation, cutting edge materials and the latest digital technology.
+                            </span>
+                                </p>
+                                <div class="hightlight">
+                                    <p>
+                                        LEARN MORE
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+<!--            <div class="content-hightLight">-->
+<!--                <div class="hight-pading">-->
+<!--                    <h2>KEEP ME UPDATED</h2>-->
+<!--                    <p>I want to stay up to date with the latest Hublot news.</p>-->
+<!--                    <p class="signup-button">SIGN UP</p>-->
+<!--                </div>-->
+<!--            </div>-->
+        </div>
+
     </section>
 <!--Huy-->
     <footer>
         <div class="container">
-            <div class="footer">
-
+            <div class="conten">
+                    <span class="conten1" style="padding: 0px 400px 0px 95px;
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 154px;">KEEP ME UPDATED</span>
+                <span class="conten2" style="  padding: 0px 400px 0px 95px;
+        font-size: 20px;
+        height: 50px;
+        width: 100%;
+        line-height: 45px;
+        font-weight: 200;">I want to stay up date with the latest Hubolot news</span>
+                <span class="conten3" style="padding: 13px 50px 13px 95px;
+        font-size: 12px;
+        line-height: 29px;"> <p style="background-color: white;width: 200px;height: 50px;font-size: 13px;color: #262626;padding: 0px;line-height: 53px"><a href="#" target="_blank" style="color: #262626;text-align: center;padding-left: 69px"> SIGN UP</a></p> </span>
+                </di>
+                <div class="conten4">
+                    <span class="footer-conten"><img src="img/logoHublot.jpg" height="109"  width="109" style="padding-right: 315px"/></span>
+                    <span>
+                        <ul class="footer-conten">
+                        <li><a href="#" target="_blank">NEWSLETTER </a></li>
+                        <li><a href="#" target="_blank">JOBS </a></li>
+                        <li><a href="#" target="_blank">PRESS </a></li>
+                        <li><a href="#" target="_blank">CONTACT US </a></li>
+                        <li><a href="#" target="_blank">SERVICES </a></li>
+                        <li><a href="#" target="_blank">TRACK AN ORDER </a></li>
+                        <li><a href="#" target="_blank">PRIVACY </a></li>
+                        <li><a href="#" target="_blank">LEGAL NOTICE $ TERMS OF USE </a></li>
+                        <li><a href="#" target="_blank">WEBWITE TERMS AND CONDITIONS </a></li>
+                        <li><a href="#" target="_blank">MSA TRANSPARENCY </a></li>
+                    </ul>
+                    <ul class="footer-conten" style="padding-left: 676px">
+                            <li class="red"><a href="#" target="_blank">ENGLISH</a></li>
+                            <li class="red"><a href="#" target="_blank">SWITZERLAND</a></li>
+                    </ul>
+                    </span>
+                    <span>
+                        <p class="p-footer1" style="margin-top: 0px;margin-bottom: 0px;width: 936px;height: 90px;float: left;line-height: 20px;font-size: 14px">Nous utilisons des cookies pour nous assurer du bon fonctionnement de notre site, pour personnaliser notre contenu et nos publicités, pour proposer des fonctionnalités disponibles sur les réseaux sociaux et afin d’analyser notre trafic. Nous partageons également des informations, quant à votre navigation sur notre site, avec nos partenaires analytiques, publicitaires et de réseaux sociaux.</p>
+                        <p class="p-footer2" style="width: 262px;height: 50px;padding-left: 0px;color: white"><a href="#" target="_blank" style="color: white;line-height: 45px">Paramètres des cookies</a></p>
+                        <p class="p-footer3" style="width: 262px;height: 50px;padding-left: 0px;background-color: red;color: white"><a href="#" target="_blank" style="color: white;line-height: 45px">Accepter les cookies</a> </p>
+                    </span>
+                </div>
             </div>
-        </div>
     </footer>
 </body>
 </html>
