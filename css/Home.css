@@ -4,7 +4,7 @@
     box-sizing: border-box
 }
 body{
-    font-family: Gotham;
+    font-family: GothamPro, sans-serif;
     font-size: .625rem;
     line-height: 1.5;
     color: #333333;
@@ -23,4 +23,185 @@ img{
 .container{
     width: 100%;
     margin: 0 auto;
+}
+/*cot2*/
+/*.main-art-column-1{*/
+/*    width: 100%;*/
+/*    background-color: #333333;*/
+/*    height: 500px;*/
+/*    position: relative;*/
+/*}*/
+/*.main-art-column-2{*/
+/*    width: 100%;*/
+/*    background-color: white;*/
+/*    height: auto;*/
+/*    position: absolute;*/
+/*    bottom: -500px;*/
+/*    left: 0;*/
+/*}*/
+.main-two-column{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    position: relative;
+}
+.main-two-column-1{
+    width: 47%;
+    height: auto;
+    float: left;
+    margin: 0 5px 0 25px ;
+    position: relative;
+}
+.main-two-column-boutiques{
+    width: 80%;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    left: 70px;
+    bottom: -150px;
+}
+.main-two-column-boutiques-in {
+    width: 80%;
+    height: 300px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.main-two-column-boutiques-1{
+    font-size: 15px;
+    letter-spacing: 0.4rem;
+    display: block;
+    margin-bottom: 20px;
+}
+.main-two-column-boutiques-2{
+    width: 150px;
+    border-bottom: 1px solid red ;
+    margin-bottom: 20px;
+}
+.main-two-column-boutiques-3{
+    font-size: 30px;
+    letter-spacing: 0.1rem;
+}
+.main-two-column-boutiques-4{
+    width: 45%;
+    height: 60px;
+    border-color: #333333;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+.main-two-column-boutiques-41{
+
+    font-size: 12px;
+    padding-left: 45px;
+    margin-top: 20px;
+    color: black;
+    font-weight: 100px;
+}
+
+.main-two-column-2{
+    width: 47%;
+    height: auto;
+    float: right;
+    margin: 0 25px 0 0;
+    position: relative;
+}
+.main-two-column-craftmanship{
+    width: 80%;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    left: 70px;
+    bottom: -150px;
+}
+.main-two-column-craftmanship-in {
+    width: 80%;
+    height: 300px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.main-two-column-craftmanship-1{
+    font-size: 15px;
+    letter-spacing: 0.4rem;
+    display: block;
+    margin-bottom: 20px;
+}
+.main-two-column-craftmanship-2{
+    width: 150px;
+    border-bottom: 1px solid red ;
+    margin-bottom: 20px;
+}
+.main-two-column-craftmanship-3{
+    font-size: 30px;
+    letter-spacing: 0.1rem;
+}
+.main-two-column-craftmanship-4{
+    width: 45%;
+    height: 60px;
+    border-color: #333333;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+.main-two-column-craftmanship-41{
+
+    font-size: 12px;
+    padding-left: 45px;
+    margin-top: 20px;
+    color: black;
+    font-weight: 100px;
+}
+/*art-music*/
+.main-art-music{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    position: relative;
+}
+.main-art-music-1 {
+    width: 97%;
+    height: auto;
+    margin-left: 20px;
+}
+.main-art-music-sorai{
+    width: 85%;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    left: 100px;
+    bottom: -250px;
+}
+.main-art-music-sorai-in{
+    width: 70%;
+    height: 200px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.main-art-music-sorai-1{
+    font-size: 15px;
+    letter-spacing: 0.4rem;
+    display: block;
+    margin-bottom: 20px;
+}
+.main-art-music-sorai-2{
+    width: 150px;
+    border-bottom: 1px solid red ;
+    margin-bottom: 20px;
+}
+.main-art-music-sorai-3{
+    font-size: 30px;
+    letter-spacing: 0.1rem;
+}
+.main-art-music-sorai-4{
+    width: 20%;
+    height: 60px;
+    border-color: #333333;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+.main-art-music-sorai-41{
+
+    font-size: 12px;
+    padding-left: 40px;
+    margin-top: 20px;
+    color: black;
+    font-weight: 100px;
 }
