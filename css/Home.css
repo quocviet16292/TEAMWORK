@@ -9,6 +9,8 @@ body{
     line-height: 1.5;
     color: #333333;
     background-color: white;
+    letter-spacing: 1.5px;
+    word-spacing: 1.5px;
 }
 a{
     text-decoration: none;
@@ -101,7 +103,7 @@ img.logo{
 .main-top-cover{
     background: black linear-gradient(hsla(0,0%,9%,0),hsla(0,0%,9%,.65) 47%,#171717);
     height: 900px;
-    border-bottom: 0.3px solid #f0f0f0;
+    border-bottom: 0.3px solid #8c8c8c;
     z-index: 2;
 }
 .main-top-cover img{
@@ -130,6 +132,7 @@ img.logo{
     background-color: red;
     transition: 1s ease-in-out;
 }
+
 .main-top-cover-letter-link a:hover:after{
     width: 30%;
 }
@@ -153,54 +156,154 @@ a.arrow-right{
 }
 
 /*son*/
-.main-top-button{
-    clear: left;
-    border-bottom: 1px solid #171717;
-    border-top: 1px solid #171717;
-    padding: 87px 22px 87px 22px;
+.main-top-button {
+    border-top: 1px #262626;
+    border-bottom: 1px #262626;
     width: 100%;
-    height: 230px;
-    margin: 0 auto;
-    background-color: #171717;
-    line-height: 56px;
-    text-transform: uppercase;
-    font-weight: 700;
+    padding: 85px 22px;
+    display: flex;   /*tuong tu float*/
+    flex-direction: row; /*display theo chieu ngang*/
+    justify-content: center; /*tao khoi ve phia giua man hinh*/
     font-size: 12px;
-    z-index: 4;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #171717;
+    z-index: 1;
 }
 
-.main-top-button_span_left{
-    float: left;
-    border: 1px solid #171717;
-    padding: 0 35px;
+.main-top-button_left{
+    padding: 20px 0;
+}
+.main-top-button_center{
+    padding: 20px 0;
+    margin: 0 22px 0 22px;
+}
+.main-top-button_right{
+    padding: 20px 0;
+}
+.main-top-button_left_link_left{
+    position: relative;
+    width: 100%;
+    padding: 20px 30px;
+    overflow-x: hidden; /*nếu chữ ra khỏi layout sẽ ẩn*/
     background-color: #FFFFFF;
-    margin-left: 256px;
-    margin-right: 22px;
-}
-.main-top-button_span_center{
-    float: left;
     border: 1px solid #FFFFFF;
-    padding: 0 74px;
+}
+.main-top-button_left_link_left:before{
+    color: #171717;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: block;
+    content: '';
+    width: 0%;
+    height: 100%;
     background-color: #171717;
+    opacity: 0.1;
+    transition-property: width;
+    transition-duration: 0.3s;
+}
+.main-top-button_left_link_left:hover:before{
+    width: 100%;
+}
+.main-top-button_left_link_center{
+    background-color: #171717;
+    position: relative;
+    width: 100%;
+    padding: 22px 60px;
+    overflow-x: hidden; /*nếu chữ ra khỏi layout sẽ ẩn*/
+    border: 1px solid #FFFFFF;
+}
+.main-top-button_left_link_center:before{
+    color: #171717;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: block;
+    content: '';
+    width: 0%;
+    height: 100%;
+    background-color: #cccccc;
+    opacity: 0.1;
+    transition-property: width;
+    transition-duration: 0.3s;
+}
+.main-top-button_left_link_center:hover:before{
+    width: 100%;
+}
+.main-top-button_left_link_center_span{
     color: #FFFFFF;
 }
-.main-top-button_span_right{
-    float: left;
+.main-top-button_left_link_right{
+    background-color:#171717;
+    position: relative;
+    width: 100%;
+    padding: 22px 60px;
+    overflow-x: hidden; /*nếu chữ ra khỏi layout sẽ ẩn*/
     border: 1px solid #FFFFFF;
-    padding: 0 73.5px;
-    background-color: #171717;
+}
+.main-top-button_left_link_right:before{
+    color: #171717;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: block;
+    content: '';
+    width: 0;
+    height: 100%;
+    background-color: #cccccc;
+    opacity: 0.1;
+    transition-property: width;
+    transition-duration: 0.3s;
+}
+.main-top-button_left_link_right:hover:before{
+    width: 100%;
+}
+.main-top-button_left_link_right_span{
     color: #FFFFFF;
-    margin-left: 22px;
 }
 
 .main-video{
     background-color: #171717;
+    position: relative;
 }
+#main-video_myVideo {
+    right: 0;
+    bottom: 0;
+}
+#main-video_content {
+    background: #171717;
+    color: #f1f1f1;
+    width: 100%;
+}
+
+#main-video_myBtn {
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    width: 200px;
+    font-size: 18px;
+    padding: 10px 0;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#main-video_myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
 .main-product{
     padding: 70px 22px 0 22px;
     width: 100%;
     height: 900px;
     background-color: #171717;
+    cursor: pointer;
 }
 .main-product_span{
     color: #FFFFFF;
@@ -211,7 +314,7 @@ a.arrow-right{
     margin-left: 70px;
     margin-bottom: 40px;
     font-weight: 900;
-
+    cursor: pointer;
 }
 .main-product_content{
     background-color: #171717;
@@ -219,6 +322,7 @@ a.arrow-right{
     float: left;
     width: 20%;
     transition: transform .9s;
+    cursor: pointer;
 }
 .main-product_content:hover{
     border: 1px dotted chocolate;
@@ -297,7 +401,7 @@ a.arrow-right{
     padding-left: 45px;
     margin-top: 20px;
     color: black;
-    font-weight: 100px;
+    font-weight: 100;
 }
 
 .main-two-column-2{
@@ -348,7 +452,7 @@ a.arrow-right{
     padding-left: 45px;
     margin-top: 20px;
     color: black;
-    font-weight: 100px;
+    font-weight: 100;
 }
 /*art-music*/
 .main-art-music{
@@ -404,7 +508,7 @@ a.arrow-right{
     padding-left: 40px;
     margin-top: 20px;
     color: black;
-    font-weight: 100px;
+    font-weight: 100;
 }
 /*Truong Nam*/
 .full-body {
