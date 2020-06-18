@@ -59,7 +59,7 @@
 
             <div class="main-video">
 
-                <video width="100%" autoplay id="main-video_myVideo">
+                <video width="100%" autoplay id="main-video_myVideo" poster="img/video_buttom_1.jpg">
                     <source type="video/mp4" src="videos/main-video_1.mp4">
                 </video>
                 <div id="main-video_content">
@@ -80,163 +80,168 @@
                     }
                 </script>
             </div>
-
+            <div class="main-product_main">
+                <div class="main-product_span"><span>EXPLORE WATCHES</span></div>
                 <div class="main-product">
-                    <div class="main-product_span"><span>EXPLORE WATCHES</span></div>
                     <div class="main-product_content">
-                        <div class="main-product_content_img">
-                            <figure>
-                                <a href="#">
-                                    <img class="mySlides_novelties w3-animate-fading" src="img/novelties_1.png" alt="novelties" style="max-width: 120%;margin-left: -20px">
-                                    <img class="mySlides_novelties w3-animate-fading" src="img/novelties_2.png" alt="novelties" style="max-width: 120%;margin-left: -20px">
-                                    <img class="mySlides_novelties w3-animate-fading" src="img/novelties_3.png" alt="novelties" style="max-width: 120%;margin-left: -20px">
-                                    <img class="mySlides_novelties w3-animate-fading" src="img/novelties__4.png" alt="novelties" style="max-width: 120%;margin-left: -20px">
-                                    <img class="mySlides_novelties w3-animate-fading" src="img/novelties_5.png" alt="novelties" style="max-width: 120%;margin-left: -20px">
-                                </a>
-                                <script>
-                                    var myIndex = 0;
-                                    carousel();
-                                    function carousel() {
-                                        var i;
-                                        var x = document.getElementsByClassName("mySlides_novelties");
-                                        for (i = 0; i < x.length; i++) {
-                                            x[i].style.display = "none";
+                        <a href="#">
+                            <div class="main-product_content_header">
+                                <figure>
+                                    <img class="mySlides_novelties w3-animate-fading" src="img/novelties_1.png" alt="novelties" style="max-width: 120%; margin-left: -25px">
+                                    <img class="mySlides_novelties w3-animate-fading" src="img/novelties_2.png" alt="novelties" style="max-width: 120%; margin-left: -25px">
+                                    <img class="mySlides_novelties w3-animate-fading" src="img/novelties_3.png" alt="novelties" style="max-width: 120%; margin-left: -25px">
+                                    <img class="mySlides_novelties w3-animate-fading" src="img/novelties__4.png" alt="novelties" style="max-width: 120%; margin-left: -25px">
+                                    <img class="mySlides_novelties w3-animate-fading" src="img/novelties_5.png" alt="novelties" style="max-width: 120%; margin-left: -25px">
+                                    <script>
+                                        var myIndex = 0;
+                                        carousel();
+                                        function carousel() {
+                                            var i;
+                                            var x = document.getElementsByClassName("mySlides_novelties");
+                                            for (i = 0; i < x.length; i++) {
+                                                x[i].style.display = "none";
+                                            }
+                                            myIndex++;
+                                            if (myIndex > x.length) {myIndex = 1}
+                                            x[myIndex-1].style.display = "block";
+                                            setTimeout(carousel, 20000);
                                         }
-                                        myIndex++;
-                                        if (myIndex > x.length) {myIndex = 1}
-                                        x[myIndex-1].style.display = "block";
-                                        setTimeout(carousel, 20000);
-                                    }
-                                </script>
-
-                            </figure>
-                        </div>
-                        <div class="main-product_content_span">novelties</div>
+                                    </script>
+                                </figure>
+                            </div>
+                            <div class="content_main_nav">&nbsp</div>
+                            <div class="main-product_content_fooder" style="margin-top: 30px">novelties</div>
+                        </a>
                     </div>
 
                     <div class="main-product_content">
-                        <div class="main-product_content_img">
-                            <figure>
-                                <a href="#">
-                                    <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_1.png" alt="big bang" style="max-width: 120%;margin-left: -20px">
-                                    <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_2.png" alt="big bang" style="max-width: 120%;margin-left: -20px">
-                                    <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_3.png" alt="big bang" style="max-width: 120%;margin-left: -20px">
-                                    <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_4.png" alt="big bang" style="max-width: 120%;margin-left: -20px">
-                                    <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_5.png" alt="big bang" style="max-width: 120%;margin-left: -20px">
-                                    <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_6.png" alt="big bang" style="max-width: 120%;margin-left: -20px">
-                                    <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_7.png" alt="big bang" style="max-width: 120%;margin-left: -20px">
-                                    <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_8.png" alt="big bang" style="max-width: 120%;margin-left: -20px">
-                                </a>
-                                <script>
-                                    var myIndex = 0;
-                                    carousel();
-                                    function carousel() {
-                                        var i;
-                                        var x = document.getElementsByClassName("mySlides_bigbang");
-                                        for (i = 0; i < x.length; i++) {
-                                            x[i].style.display = "none";
+                        <a href="#">
+                            <div class="main-product_content_header">
+                                <figure>
+                                    <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_1.png" alt="big bang" style="max-width: 120%; margin-left: -25px">
+                                    <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_2.png" alt="big bang" style="max-width: 120%; margin-left: -25px">
+                                    <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_3.png" alt="big bang" style="max-width: 120%; margin-left: -25px">
+                                    <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_4.png" alt="big bang" style="max-width: 120%; margin-left: -25px">
+                                    <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_5.png" alt="big bang" style="max-width: 120%; margin-left: -25px">
+                                    <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_6.png" alt="big bang" style="max-width: 120%; margin-left: -25px">
+                                    <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_7.png" alt="big bang" style="max-width: 120%; margin-left: -25px">
+                                    <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_8.png" alt="big bang" style="max-width: 120%; margin-left: -25px">
+                                    <script>
+                                        var myIndex = 0;
+                                        carousel();
+                                        function carousel() {
+                                            var i;
+                                            var x = document.getElementsByClassName("mySlides_bigbang");
+                                            for (i = 0; i < x.length; i++) {
+                                                x[i].style.display = "none";
+                                            }
+                                            myIndex++;
+                                            if (myIndex > x.length) {myIndex = 1}
+                                            x[myIndex-1].style.display = "block";
+                                            setTimeout(carousel, 20000);
                                         }
-                                        myIndex++;
-                                        if (myIndex > x.length) {myIndex = 1}
-                                        x[myIndex-1].style.display = "block";
-                                        setTimeout(carousel, 20000);
-                                    }
-                                </script>
-
-                            </figure>
-                        </div>
-                        <div class="main-product_content_span">big bang</div>
+                                    </script>
+                                </figure>
+                            </div>
+                            <div class="main-product_content_nav">&nbsp</div>
+                            <div class="main-product_content_fooder">big bang</div>
+                        </a>
                     </div>
 
                     <div class="main-product_content">
-                        <div class="main-product_content_img">
-                            <figure>
-                                <a href="#">
-                                    <img class="mySlides_classicfusion w3-animate-fading" src="img/classicfusion_1.png" alt="classicfusion" style="max-width: 120%;margin-left: -20px">
-                                    <img class="mySlides_classicfusion w3-animate-fading" src="img/classicfusion_2.png" alt="classicfusion" style="max-width: 120%;margin-left: -20px">
-                                    <img class="mySlides_classicfusion w3-animate-fading" src="img/classicfusion_3.png" alt="classicfusion" style="max-width: 120%;margin-left: -20px">
-                                    <img class="mySlides_classicfusion w3-animate-fading" src="img/classicfusion_4.png" alt="classicfusion" style="max-width: 120%;margin-left: -20px">
-                                    <img class="mySlides_classicfusion w3-animate-fading" src="img/classicfusion_5.png" alt="classicfusion" style="max-width: 120%;margin-left: -20px">
-                                </a>
-                                <script>
-                                    var myIndex = 0;
-                                    carousel();
-                                    function carousel() {
-                                        var i;
-                                        var x = document.getElementsByClassName("mySlides_classicfusion");
-                                        for (i = 0; i < x.length; i++) {
-                                            x[i].style.display = "none";
+                        <a href="#">
+                            <div class="main-product_content_header">
+                                <figure>
+                                    <img class="mySlides_classicfusion w3-animate-fading" src="img/classicfusion_1.png" alt="classicfusion" style="max-width: 120%; margin-left: -25px">
+                                    <img class="mySlides_classicfusion w3-animate-fading" src="img/classicfusion_2.png" alt="classicfusion" style="max-width: 120%; margin-left: -25px" >
+                                    <img class="mySlides_classicfusion w3-animate-fading" src="img/classicfusion_3.png" alt="classicfusion" style="max-width: 120%; margin-left: -25px">
+                                    <img class="mySlides_classicfusion w3-animate-fading" src="img/classicfusion_4.png" alt="classicfusion" style="max-width: 120%; margin-left: -25px">
+                                    <img class="mySlides_classicfusion w3-animate-fading" src="img/classicfusion_5.png" alt="classicfusion" style="max-width: 120%; margin-left: -25px">
+                                    <script>
+                                        var myIndex = 0;
+                                        carousel();
+                                        function carousel() {
+                                            var i;
+                                            var x = document.getElementsByClassName("mySlides_classicfusion");
+                                            for (i = 0; i < x.length; i++) {
+                                                x[i].style.display = "none";
+                                            }
+                                            myIndex++;
+                                            if (myIndex > x.length) {myIndex = 1}
+                                            x[myIndex-1].style.display = "block";
+                                            setTimeout(carousel, 20000);
                                         }
-                                        myIndex++;
-                                        if (myIndex > x.length) {myIndex = 1}
-                                        x[myIndex-1].style.display = "block";
-                                        setTimeout(carousel, 20000);
-                                    }
-                                </script>
-                            </figure>
-                        </div>
-                        <div class="main-product_content_span">classic fusion</div>
+                                    </script>
+                                </figure>
+                            </div>
+                            <div class="content_main_nav" style="margin-left: 130px">&nbsp</div>
+                            <div class="main-product_content_fooder" style="margin-top: 20px">classic fusion</div>
+                        </a>
                     </div>
 
                     <div class="main-product_content">
-                        <div class="main-product_content_img">
-                            <figure>
-                                <a href="#">
-                                    <img class="mySlides_spirit w3-animate-fading" src="img/spirit_1.png" alt="spirit" style="max-width: 120%;margin-left: -20px">
-                                    <img class="mySlides_spirit w3-animate-fading" src="img/spirit_2.png" alt="spirit" style="max-width: 120%;margin-left: -20px">
-                                    <img class="mySlides_spirit w3-animate-fading" src="img/spirit_3.png" alt="spirit" style="max-width: 120%;margin-left: -20px">
-                                    <img class="mySlides_spirit w3-animate-fading" src="img/spirit_4.png" alt="spirit" style="max-width: 120%;margin-left: -20px">
-                                    <img class="mySlides_spirit w3-animate-fading" src="img/spirit_5.png" alt="spirit" style="max-width: 120%;margin-left: -20px">
-                                </a>
-                                <script>
-                                    var myIndex = 0;
-                                    carousel();
-                                    function carousel() {
-                                        var i;
-                                        var x = document.getElementsByClassName("mySlides_spirit");
-                                        for (i = 0; i < x.length; i++) {
-                                            x[i].style.display = "none";
+                        <a href="#">
+                            <div class="main-product_content_header">
+                                <figure>
+                                    <img class="mySlides_spirit w3-animate-fading" src="img/spirit_1.png" alt="spirit" style="max-width: 120%; margin-left: -25px">
+                                    <img class="mySlides_spirit w3-animate-fading" src="img/spirit_2.png" alt="spirit" style="max-width: 120%; margin-left: -25px">
+                                    <img class="mySlides_spirit w3-animate-fading" src="img/spirit_3.png" alt="spirit" style="max-width: 120%; margin-left: -25px">
+                                    <img class="mySlides_spirit w3-animate-fading" src="img/spirit_4.png" alt="spirit" style="max-width: 120%; margin-left: -25px">
+                                    <img class="mySlides_spirit w3-animate-fading" src="img/spirit_5.png" alt="spirit" style="max-width: 120%; margin-left: -25px">
+                                    <script>
+                                        var myIndex = 0;
+                                        carousel();
+                                        function carousel() {
+                                            var i;
+                                            var x = document.getElementsByClassName("mySlides_spirit");
+                                            for (i = 0; i < x.length; i++) {
+                                                x[i].style.display = "none";
+                                            }
+                                            myIndex++;
+                                            if (myIndex > x.length) {myIndex = 1}
+                                            x[myIndex-1].style.display = "block";
+                                            setTimeout(carousel, 20000);
                                         }
-                                        myIndex++;
-                                        if (myIndex > x.length) {myIndex = 1}
-                                        x[myIndex-1].style.display = "block";
-                                        setTimeout(carousel, 20000);
-                                    }
-                                </script>
-                            </figure>
-                        </div>
-                        <div class="main-product_content_span">spirit of big bang</div>
+                                    </script>
+                                </figure>
+                            </div>
+                            <div class="content_main_nav">&nbsp</div>
+                            <div class="main-product_content_fooder" style="margin-top: 20px">spirit of big bang</div>
+                        </a>
                     </div>
 
                     <div class="main-product_content">
-                        <div class="main-product_content_img">
-                            <figure>
-                                <a href="#">
-                                    <img class="mySlides_mp w3-animate-fading" src="img/mp_1.png" alt="mp" style="max-width: 120%;margin-left: -20px">
-                                    <img class="mySlides_mp w3-animate-fading" src="img/mp_2.png" alt="mp" style="max-width: 120%;margin-left: -20px">
-                                </a>
-                                <script>
-                                    var myIndex = 0;
-                                    carousel();
-                                    function carousel() {
-                                        var i;
-                                        var x = document.getElementsByClassName("mySlides_mp");
-                                        for (i = 0; i < x.length; i++) {
-                                            x[i].style.display = "none";
+                        <a href="#">
+                            <div class="main-product_content_header">
+                                <figure>
+                                    <img class="mySlides_mp w3-animate-fading" src="img/mp_1.png" alt="mp" style="max-width: 120%; margin-left: -25px">
+                                    <img class="mySlides_mp w3-animate-fading" src="img/mp_2.png" alt="mp" style="max-width: 120%; margin-left: -25px">
+                                    <script>
+                                        var myIndex = 0;
+                                        carousel();
+                                        function carousel() {
+                                            var i;
+                                            var x = document.getElementsByClassName("mySlides_mp");
+                                            for (i = 0; i < x.length; i++) {
+                                                x[i].style.display = "none";
+                                            }
+                                            myIndex++;
+                                            if (myIndex > x.length) {myIndex = 1}
+                                            x[myIndex-1].style.display = "block";
+                                            setTimeout(carousel, 60000);
                                         }
-                                        myIndex++;
-                                        if (myIndex > x.length) {myIndex = 1}
-                                        x[myIndex-1].style.display = "block";
-                                        setTimeout(carousel, 60000);
-                                    }
-                                </script>
-                            </figure>
-                        </div>
-                        <div class="main-product_content_span">mp</div>
+                                    </script>
+                                </figure>
+                            </div>
+                            <div class="content_main_nav">&nbsp</div>
+                            <div class="main-product_content_fooder" style="margin-top: 20px">mp</div>
+                        </a>
                     </div>
 
                 </div>
             </div>
+            </div>
+
 <!-- Do Nam-->
         <div class="main-two-column">
             <div class="main-two-column-1">
