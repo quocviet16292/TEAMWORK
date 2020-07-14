@@ -163,36 +163,38 @@ img{
 .main-video{
     background-color: #171717;
     position: relative;
+    overflow: hidden;
+    z-index: 3;
 }
-#main-video_myVideo {
-    right: 0;
-    bottom: 0;
-}
-#main-video_content {
-    background: #171717;
-    color: #f1f1f1;
-    width: 100%;
-}
+/*#main-video_myVideo {*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*}*/
+/*#main-video_content {*/
+/*    background: #171717;*/
+/*    color: #f1f1f1;*/
+/*    width: 100%;*/
+/*}*/
 
-#main-video_myBtn {
-    position: absolute;
-    bottom: 0.4%;
-    right: 0;
-    width: 12%;
-    min-width: 12%;
-    font-size: 2vw;
-    min-font-size: 2vw;
-    padding: 0.15vw 0;
-    border: none;
-    background: #171717;
-    color: #fff;
-    cursor: pointer;
-}
+/*#main-video_myBtn {*/
+/*    position: absolute;*/
+/*    bottom: 0.4%;*/
+/*    right: 0;*/
+/*    width: 12%;*/
+/*    min-width: 12%;*/
+/*    font-size: 2vw;*/
+/*    min-font-size: 2vw;*/
+/*    padding: 0.15vw 0;*/
+/*    border: none;*/
+/*    background: #171717;*/
+/*    color: #fff;*/
+/*    cursor: pointer;*/
+/*}*/
 
-#main-video_myBtn:hover {
-    background: #ddd;
-    color: #171717;
-}
+/*#main-video_myBtn:hover {*/
+/*    background: #ddd;*/
+/*    color: #171717;*/
+/*}*/
 /* hết thẻ videos */
 /* thẻ header_watcher */
 .header_watches{
@@ -200,6 +202,7 @@ img{
     color: #FFFFFF;
     justify-items: center;
     padding-top: 4.5%;
+    z-index: 20;
 }
 .header_watcher_span{
     font-size: 3vw;
@@ -1034,31 +1037,14 @@ img{
 .container_lastnew_main3{
     width: 33.33%;
 }
-.container_lastnew_main3_main{
-    display: flex;
-    justify-content: start;
-}
-.container_lastnew_main3_main_top{
-    max-width: 100%;
-}
 
 .lastnew_img.notamenu img{
     background-size: cover;
 }
-.container_lastnew_main3_span{
-    font-size: 0.8vw;
-}
+
+
 .container_lastnew_main3_main_center_span{
-    font-size: 0.9vw;
-}
-.container_lastnew_main3_main_center{
-    text-transform: uppercase;
-    color: #f0f0f0;
-    /*margin-left: -5.5vw;*/
-    /*margin-right: 0.5vw;*/
-}
-.container_lastnew_main3_main_bottom{
-    padding-top: 0.8vw;
+    font-size: 1.2vw;
 }
 
 /*kết thúc container_lastnew_main */
@@ -1222,6 +1208,18 @@ img{
 }
 .notamenu_aaa_span{
     font-size:  0.8vw;
+}
+.notamenu_bottom{
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: transparent;
+    opacity: 1;
+}
+.notamenu_bottom:hover{
+    color: lightpink;
+    list-style: none;
+    text-decoration: none;
+    opacity: 0.5;
 }
 .tager_last:active{
     border: 0.05vw dotted #17a2b8;

@@ -247,6 +247,7 @@
     /*    bắt đầu thẻ lasst neww 2*/
     .lastnew2{
         display: block;
+        font-size: 2vw;
     }
     .carousel_ln.slide,.left.carousel-control_ln,.right.carousel-control_ln{
         display: block;
@@ -255,16 +256,29 @@
         display: block;
     }
 /*    levo move  */
+    .img-fluid.main-top{
+        max-width: 50%;
+    }
+    .container_lastnew_main3_main_center{
+        margin: 0!important;
+        padding: 0 !important;
+    }
+    .container_lastnew_main3_main_bottom{
+        margin-left: -5vw;
+        width: 5%;
+        padding: 0 !important;
+    }
     .container_lastnew_main3_main_center a{
-        font-size: 1.5vw;
-        margin-left: -4vw;
+        font-size: 2.4vw;
+        text-align: left;
+        margin-right: 4vw;
     }
      .container_lastnew_main3_main_bottom i{
-         font-size: 1.8vw;
-         margin-right: 4vw;
+         font-size: 2.5vw;
+         margin-right: 3vw;
      }
-    .container_lastnew_main3_main_2{
-        margin-right: 4vw;
+    .notamenu_bottom.iconbottom{
+       margin-left: -6vw;
     }
     .container_lastnew_main1 a span{
         font-size: 1.4vw;
@@ -276,10 +290,10 @@
         font-size: 1.4vw;
     }
     .container_lastnew_main2_span span{
-        font-size: 1.1vw;
+        font-size: 1.8vw;
     }
     .container_lastnew_main3_span span{
-        font-size: 1.3vw;
+        font-size: 1.8vw;
     }
     .carousel-caption_ln.text-left{
         padding: 3vw 0 5vw 0;
@@ -330,7 +344,7 @@
         border-width: 0.4vw 0 0 0;
     }
     .notamenu_a{
-        font-size: 1.5vw;
+        font-size: 2.4vw;
     }
     .notamenu_aaaa{
         font-size: 1.7vw;
@@ -343,6 +357,7 @@
     .fa.icon{
         font-size: 4vw;
     }
+
 }
 
 /* 200% */
@@ -393,13 +408,29 @@
     }
 
 /*    levo*/
+    .img-fluid.main-top{
+        max-width: 60%;
+    }
+    .container_lastnew_main3_main_center{
+        margin: 0!important;
+        padding: 0 !important;
+    }
+    .container_lastnew_main3_main_bottom{
+        margin-left: -3vw;
+        width: 5%;
+        padding: 0 !important;
+    }
     .container_lastnew_main3_main_center a{
-        font-size: 1.5vw;
-        margin-left: -6vw;
+        font-size: 2.4vw;
+        text-align: left;
+        margin-right: 2vw;
     }
     .container_lastnew_main3_main_bottom i{
-        font-size: 1.8vw;
-        margin-right: 4vw;
+        font-size: 2.5vw;
+        margin-right: 2vw;
+    }
+    .notamenu_bottom.iconbottom{
+        margin-left: -6vw;
     }
     .container_lastnew_main3_main_2{
         margin-right: 4vw;
@@ -414,10 +445,10 @@
         font-size: 1.4vw;
     }
     .container_lastnew_main2_span span{
-        font-size: 1.1vw;
+        font-size: 2.2vw;
     }
     .container_lastnew_main3_span span{
-        font-size: 1.3vw;
+        font-size: 2.2vw;
     }
     .carousel-caption_ln.text-left{
         padding: 3vw 0 6vw 0;
@@ -448,7 +479,7 @@
         border-width: 0.5vw 0 0 0;
     }
     .notamenu_a{
-        font-size: 1.6vw;
+        font-size: 2.6vw;
     }
     .notamenu_aaaa{
         font-size: 1.9vw;
@@ -595,7 +626,7 @@
     }
     /*?*/
     .container_lastnew_main3_main_center a{
-        font-size: 1.8vw;
+        font-size: 2.8vw;
         margin-left: -8vw;
     }
     .container_lastnew_main3_main_bottom i{
@@ -615,10 +646,10 @@
         font-size: 1.6vw;
     }
     .container_lastnew_main2_span span{
-        font-size: 1.3vw;
+        font-size: 2.6vw;
     }
     .container_lastnew_main3_span span{
-        font-size: 1.5vw;
+        font-size: 2.6vw;
     }
     .carousel-caption_ln.text-left{
         padding: 4vw 0 8vw 0;
@@ -669,7 +700,7 @@
         border-width: 0.5vw 0 0 0;
     }
     .notamenu_a{
-        font-size: 1.7vw;
+        font-size: 2.8vw;
     }
     .notamenu_aaaa{
         font-size: 2.2vw;
@@ -695,6 +726,29 @@
         -ms-transform: scale(1.06);
         -webkit-transform: scale(1.06);
         transform: scale(1.06);
+    }
+/*     lovư  */
+    .img-fluid.main-top{
+        max-width: 70%;
+    }
+    .container_lastnew_main3_main_center{
+        margin: 0!important;
+        padding: 0 !important;
+    }
+    .container_lastnew_main3_main_bottom{
+        width: 5%;
+        padding: 0 !important;
+    }
+    .container_lastnew_main3_main_center a{
+        font-size: 2.6vw;
+        text-align: center;
+        margin-left: 2vw;
+    }
+    .container_lastnew_main3_main_bottom i{
+        font-size: 2.8vw;
+    }
+    .notamenu_bottom.iconbottom{
+        margin-left: -6vw;
     }
 }
 /* 300 */
@@ -846,7 +900,7 @@
     }
 /*    ff*/
     .container_lastnew_main3_main_center a{
-        font-size: 1.8vw;
+        font-size: 3.2vw;
         margin-left: -10vw;
     }
     .container_lastnew_main3_main_bottom i{
@@ -866,10 +920,10 @@
         font-size: 1.6vw;
     }
     .container_lastnew_main2_span span{
-        font-size: 1.3vw;
+        font-size: 3vw;
     }
     .container_lastnew_main3_span span{
-        font-size: 1.5vw;
+        font-size: 3vw;
     }
     .carousel-caption_ln.text-left{
         padding: 6vw 0 10vw 0;
@@ -921,7 +975,7 @@
         border-width: 0.6vw 0 0 0;
     }
     .notamenu_a{
-        font-size: 1.8vw;
+        font-size: 3vw;
     }
     .notamenu_aaaa{
         font-size: 2.1vw;
@@ -933,6 +987,29 @@
     }
     .fa.icon{
         font-size: 7vw;
+    }
+    /*     lovư  */
+    .img-fluid.main-top{
+        max-width: 70%;
+    }
+    .container_lastnew_main3_main_center{
+        margin: 0!important;
+        padding: 0 !important;
+    }
+    .container_lastnew_main3_main_bottom{
+        width: 5%;
+        padding: 0 !important;
+    }
+    .container_lastnew_main3_main_center a{
+        font-size: 2.6vw;
+        text-align: center;
+        margin-left: 3vw;
+    }
+    .container_lastnew_main3_main_bottom i{
+        font-size: 3vw;
+    }
+    .notamenu_bottom.iconbottom{
+        margin-left: -6vw;
     }
 }
 /*400*/
@@ -1119,6 +1196,9 @@
         width: 6vw;
         border-width: 0.8vw 0 0 0;
     }
+    .notamenu_a{
+        font-size: 3.2vw;
+    }
     .notamenu_aaaa{
         font-size: 2.4vw;
     }
@@ -1142,6 +1222,29 @@
         -ms-transform: scale(1.04);
         -webkit-transform: scale(1.04);
         transform: scale(1.04);
+    }
+    /*     lovư  */
+    .img-fluid.main-top{
+        max-width: 80%;
+    }
+    .container_lastnew_main3_main_center{
+        margin: 0!important;
+        padding: 0 !important;
+    }
+    .container_lastnew_main3_main_bottom{
+        width: 5%;
+        padding: 0 !important;
+    }
+    .container_lastnew_main3_main_center a{
+        font-size: 3vw;
+        text-align: center;
+        margin-left: 3vw;
+    }
+    .container_lastnew_main3_main_bottom i{
+        font-size: 3vw;
+    }
+    .notamenu_bottom.iconbottom{
+        margin-left: -6vw;
     }
 }
 /* 500 */
@@ -1282,3 +1385,5 @@
         letter-spacing: 1.1px;
     }
 }
+
+
